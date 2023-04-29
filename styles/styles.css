@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@1&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: linear-gradient(to right, rgba(52, 66, 199, 0.87), rgba(31, 104, 122, 0.705));
+    font-family: arial;
+    font-size: 12px;
+}
+
+.container {
+    align-items: center;
+    text-align: center;
+    position:relative;
+    min-height: 1080px;
+}
+
+#menu {
+    width: 100%;
+    height: 80px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+#menu ul {
+    margin-right: 20px;
+}
+
+#menu ul li{
+    list-style: none;
+    display: inline;
+    padding: 15px;
+    border: 1.5px solid black;
+    border-radius: 10%;
+    margin: 0 5px 0 5px;
+    
+}
+
+#menu ul li a{
+    font-size: 20px;
+    font-family: arial;
+    color: white;
+    text-decoration: none;
+}
+
+#menu ul li:hover {
+    background-color: #000000c6;
+    color: black;
+    padding: 20px;
+}
+
+#h1_home {
+    font-family: 'Bruno Ace', cursive;
+    text-align: center;
+    font-size: 100px;
+    text-decoration: line-through;
+    margin-top: 40px;
+}
+
+.div_pai{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.div_pai_sobre{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.div_pai_contato {
+    text-align: center;
+    margin-top: 100px;
+}
+
+#button1 {
+    background-Image: linear-gradient(to right, rgba(52, 66, 199, 0.87), rgba(31, 104, 122, 0.705));
+}
+
+#button2 {
+    background-Image: linear-gradient(to right, rgb(47, 255, 238), rgb(10, 10, 10));
+}
+
+#button3 {
+    background-Image: linear-gradient(to right, rgb(33, 248, 4), rgb(156, 6, 6));
+}
+
+#button1, #button2, #button3 {
+    width: 70px;
+    height: 30px;
+    border: 1px solid ;
+    border-radius: 15%;
+    margin: 10px;
+    background-color: #c6c6c6c6;
+}
+
+#p_home {
+    font-family: 'Instrument Serif', serif;
+    font-size: 20px;
+}
+
+.p_cor {
+    font-size: 20px;
+    font-family: 'Instrument Serif', serif;
+    padding: 0 80px 0 120px;
+}
+
+h2 {
+    font-family: 'Bruno Ace', cursive;
+    text-align: center;
+}
+
+.pai_texto {
+    width: 95%;
+    height: 40%;
+    text-align: center;
+    margin-bottom: 10em;
+}
+
+#cor {
+    font-size: 20px;
+    font-family: 'Instrument Serif', serif;
+}
+
+footer {
+    width: auto;
+    height: 30px;
+    text-align: center;
+    font-family: 'Instrument Serif', serif;
+    font-size: 16px;
+    background-color: #c6c6c6c6;
+    padding: 40px;
+}
+
+#formulario {
+    background-color: antiquewhite;
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    align-items: center;
+    padding: 10px;
+    letter-spacing: 1px;
+    margin: auto;
+}
+
+.formu {
+    margin: auto;
+}
+
+#envolver_form {
+    border: 1px solid black;
+}
+
+#h1_cont {
+    font-family: 'Instrument Serif', serif;
+    background-color: rgb(212, 174, 124);
+    border: 1px solid black;
+    margin-bottom: 10px;
+}
+
+#h1_quiz {
+    font-family: 'Instrument Serif', serif;
+    background-color: rgb(212, 174, 124);
+    border: 1px solid black;
+    margin-bottom: 10px;
+}
+
+#nome_cont, #email_cont, #tel_cont {
+    font-family: 'Instrument Serif', serif;
+    font-weight: 1000;
+}
+
+#button_cont {
+    font-family: 'Instrument Serif', serif;
+    font-weight: 1000;
+    padding: 3px;
+    margin: 10px 0 10px 0;
+}
+
+#perguntas {
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 8%;
+    margin-bottom: 20px;
+    background-color:rgb(212, 174, 124);
+    font-family: 'Instrument Serif', serif;
+    font-size: 16px;
+    font-weight: 1000;
+}
+
+#perguntas:hover {
+    background-color:rgb(216, 143, 49);
+    font-size: 20px;
+}
+
+#perguntas:active {
+    background-color:rgba(118, 116, 116, 0);
+    font-size: 20px;
+}
+
+#Respostas {
+    font-family: 'Instrument Serif', serif;
+    font-size: 20px;
+    background-color: rgba(49, 145, 204, 0.492);
+}

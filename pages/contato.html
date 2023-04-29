@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/styles.css">
+    <title>Contato</title>
+</head>
+<body>
+    <header>
+        <nav id="menu">
+            <ul>
+                <li><a href="../index.html">HOME</a></li>
+                <li><a href="./contato.html">CONTATO</a></li>
+                <li><a href="./quiz.html">QUIZ</a></li>
+                <li><a href="./sobre.html">SOBRE</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="container">
+        <div class="formu">
+            <form id="formulario">
+                <h1 id="h1_cont">formulário</h1>
+                    <div id="envolver_form">
+                    <h3 id="nome_cont">Nome:<input type="text" id="nomes" ></h3>
+                    <h3 id="email_cont">Email:<input type="email" id="email" ></h3>
+                    <h3 id="tel_cont">Telefone:<input type="tel" id="telefone" ></h3>
+                    <button id="button_cont" type="submit" value="validar" onclick="Formulario()">Clique para enviar</button>
+                    </div>
+            </form>
+        </div>
+        <div class="div_pai_contato">
+            <p id="cor">Escolha a cor do site.</p>
+            <button id="button1" type="submit" onclick="tema1()">Tema 1</button>
+            <button id="button2" type="submit" onclick="tema2()">Tema 2</button>
+            <button id="button3" type="submit" onclick="tema3()">Tema 3</button>
+        </div>
+    </main>
+    <footer>@2023 Todos os direitos reservados.</footer>
+    <script src="../script.js"></script>
+</body>
+</html>
